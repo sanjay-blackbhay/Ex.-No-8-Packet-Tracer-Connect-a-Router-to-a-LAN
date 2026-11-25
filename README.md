@@ -15,7 +15,9 @@ ________________________________________<br>
 •	Copper straight-through cables for LAN links; Serial DCE/DTE cable for WAN link <br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1—S1—PC1/PC2 and R2—S2—PC3/PC4, plus R1–R2 Serial link S0/0/0.)<br>
+
+<img width="1917" height="1078" alt="Screenshot 2026-11-25 181427" src="https://github.com/user-attachments/assets/9ac9d24e-f7e6-45b0-ba75-cdd413fe0e1e" />
+
 ________________________________________<br>
 Addressing Table (from activity)<br>
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -112,9 +114,32 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+
+
+<img width="1917" height="1071" alt="Screenshot 2026-11-25 181653" src="https://github.com/user-attachments/assets/d90a2f69-626f-4bf1-b38f-e217e00e5378" />
+
+<img width="1916" height="1076" alt="Screenshot 2026-11-25 181719" src="https://github.com/user-attachments/assets/7e4fc2e1-73c2-4e01-a185-3faa140ae792" />
+
+
 •	show ip route on R1 and R2<br>
+
+<img width="1916" height="1076" alt="Screenshot 2026-11-25 181719" src="https://github.com/user-attachments/assets/9b53ef68-f75e-4d1d-96d8-b4e1f4807bde" />
+
+
+<img width="1917" height="1071" alt="Screenshot 2026-11-25 181653" src="https://github.com/user-attachments/assets/7b2765a3-04c0-4753-b692-18a547159a8e" />
+
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+
+
+<img width="1916" height="1075" alt="Screenshot 2026-11-25 181911" src="https://github.com/user-attachments/assets/3982c9c1-3b39-4dce-ba07-8d9787125737" />
+
+
 •	Interface up messages after no shutdown on each link <br>
+
+<img width="1917" height="1077" alt="Screenshot 2026-11-25 182045" src="https://github.com/user-attachments/assets/e23c661a-e1b4-42a1-943d-487486dcd545" />
+
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
